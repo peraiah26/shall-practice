@@ -5,4 +5,4 @@
  echo "present working directory: $pwd"
  echo "who runing this: $USER"
  echo "home directory of user: $HOME"
- echo "PID of the script: $$
+ echo "PID of the script: $$"
