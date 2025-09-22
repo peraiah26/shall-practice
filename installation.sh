@@ -4,7 +4,7 @@
  if [ $USERID -ne 0 ]; then
     echo "ERROR:: please run this script with root privillage"
     exit 1
-f1
+fi
 
 dnf install mysql -y
 
@@ -14,4 +14,4 @@ if[ $? -ne 0 ]; then
 
 else
     echo "insatalling mysql is success"
-f1
+fi
