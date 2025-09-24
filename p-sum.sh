@@ -9,4 +9,4 @@ echo "sum is:${SUM}"
 
 LEADERS=("peraiah" "ganesh" "venkatesh")
 
-echo " display all leaders:${LEADERS}"
+echo " display all leaders:${LEADERS[@]}"
