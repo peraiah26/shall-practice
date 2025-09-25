@@ -4,7 +4,7 @@ echo "enter the given number:"
 
 read $NUMBER
 
-if [ $(($NUMBER % 2)) -eq 0 ]; then
+if [ $(($NUMBER % 2)) -eq 0 ]; then; then
 
     echo "given number $a is even"
 
