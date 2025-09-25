@@ -2,7 +2,7 @@
 
 a=$4
 
-if [ $(($a % 2)) -eq 0 ]; then
+if [ $(($a%2)) -eq 0 ]; then
 
     echo "given number $a is even"
 
