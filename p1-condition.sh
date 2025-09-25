@@ -9,3 +9,5 @@ if [ $a -lt 10 ]; then
 else
     
     echo "given number $a is greater than 10"
+
+fi
