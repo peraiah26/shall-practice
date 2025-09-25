@@ -8,3 +8,5 @@ if [$(($a % 2)) -eq 0 ]; then
 
 else
     echo "given number $a is odd"
+
+fi
