@@ -1,8 +1,10 @@
 #!/bin/bash
 
-a=$4
+echo "enter the given number:"
 
-if [ $(($a%2)) -eq 0 ]; then
+read $NUMBER
+
+if [ $(($NUMBER % 2)) -eq 0 ]; then
 
     echo "given number $a is even"
 
