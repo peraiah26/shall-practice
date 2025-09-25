@@ -2,7 +2,7 @@
 
 a=$2
 
-if [ $a -lt 10 ]; then
+if [ $a -lt 10 ] ; then
 
     echo "given number $a is less than 10"
 
