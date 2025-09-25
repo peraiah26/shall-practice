@@ -1,6 +1,6 @@
 #!/bin/bash
 
-a=$1
+a=$2
 
 if [ $a -lt 10 ]; then
 
