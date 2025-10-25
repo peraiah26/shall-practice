@@ -1,5 +1,8 @@
 #!/bin/bash
-echo "please enter your pin number:"
-read -s PIN_NUMBER
+START_TIME= $($date +%s)
+sleep 5
+END_TIME= $($date +%s)
 
-echo "your pin-number is:$PIN_NUMBER"
+TOTAL_TIME=$(($END_TIME-$START_TIME))
+
+echo "total time second is:$TOTAL_TIME"
