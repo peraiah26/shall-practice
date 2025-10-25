@@ -1,4 +1,7 @@
 #!/bin/bash
+
+DATE=($date)
+
 START_TIME= $($date +%s)
 sleep 5
 END_TIME= $($date +%s)
