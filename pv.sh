@@ -1,6 +1,5 @@
 #!/bin/bash
 
-DATE=($date)
 
 START_TIME= ($date +%s)
 sleep 5
