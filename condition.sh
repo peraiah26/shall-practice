@@ -6,7 +6,7 @@ if [ $NUMBER -lt 10 ]; then
 
     echo "Given number $NUMBER is less than 10"
 
-elif [ NUMBER -eq 10 ]
+elif [ $NUMBER -eq 10 ]
 
     echo "Given number is $NUMBER equal to 10"
 
